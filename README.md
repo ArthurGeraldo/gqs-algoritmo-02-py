@@ -26,7 +26,9 @@ Certifique-se de ter o **Python 3.12** (ou superior) instalado em sua máquina. 
 
 ```
   python --version
+```
   # ou
+```
   python3 --version
 ```
 

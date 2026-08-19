@@ -1,10 +1,14 @@
 # GQS Algoritmo 02 - Python
 
+![Python Version](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 Esse é um conversor de moedas em tempo real via terminal, desenvolvido em Python. Ele consome dados de uma API pública para buscar as cotações atuais e oferece um menu interativo com as seguintes funcionalidades:
 - Consulta de Cotações Atuais
 - Conversão de Valores
 
-### Detalhamento do Código (Principais Comandos)
+### Detalhamento do Código
 
 O código foi estruturado utilizando os seguintes comandos e conceitos em Python:
 
@@ -38,3 +42,35 @@ Siga o passo a passo abaixo pelo terminal ou linha de comando para rodar o progr
 ```
   python main.py
 ```
+
+## Exemplo de Saída
+
+Abaixo está a simulação exata do que o console exibe durante a execução do programa. Neste exemplo real de uso, o usuário escolhe a opção de conversão, seleciona a moeda Dólar, converte R$ 100,00 e, em seguida, encerra o programa:
+
+```
+O que você deseja fazer?
+    1 - Ver cotações 
+    2 - Calcular conversão
+    3 - Sair
+    
+Escolha uma opção: 2
+
+Escolha a moeda que deseja converter:
+
+    1 - Dólar
+
+    2 - Euro
+
+    3 - Bitcoin
+        
+1
+
+Digite o valor em reais: 100
+Valor em dólares: $19.45
+```
+
+## Sobre o Autor
+**Nome:** Arthur Geraldo Santos Silva  
+**RA:** 4251924719  
+**Disciplina:** Garantia da Qualidade de Software  
+**Professor:** Daniel Henrique Matos de Paiva
